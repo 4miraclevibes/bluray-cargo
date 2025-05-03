@@ -59,3 +59,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+Cara penggunaan
+1. clone git nya
+2. pastikan jangan di upgrade dulu ke laravel 12, karena di laravel 12 belum support biteship lib nya, jadi langsung saja gunakan sesuai composer.json
+3. jalankan 'composer install' di terminal
+4. jalankan 'cp .env.example .env' di terminal
+5. jalankan 'php artisan key:generate' di terminal
+6. jalankan 'php artisan migrate' atau 'php artisan migrate:fresh' di terminal
+7. jalankan 'php artisan db:seed --class=DatabaseSeeder' di terminal
+8. jalankan 'php artisan serve' atau di vps linux jangan lupa untuk 'chmod -R 777 storage/' di terminal nya
+9. untuk database, kalau postgres, ya rubah env jadi postgres dan lakukan migrate seperti biasa, semua database dan relasi saya handle melalui laravel itu sendiri
+10. link yang udah saya deploy di server saya sendiri yaitu https://blueraycargo.fsnthrds.com/
+11. terimakasih

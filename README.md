@@ -73,3 +73,8 @@ Cara penggunaan
 9. untuk database, kalau postgres, ya rubah env jadi postgres dan lakukan migrate seperti biasa, semua database dan relasi saya handle melalui laravel itu sendiri
 10. link yang udah saya deploy di server saya sendiri yaitu https://blueraycargo.fsnthrds.com/
 11. terimakasih
+
+jangan lupa tambahkan key nya di env
+
+BITESHIP_API_KEY=biteship_test.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYmx1ZSIsInVzZXJJZCI6IjY4MTQ3OTAwNDM5OTYyMDAxMjk4ZDllOCIsImlhdCI6MTc0NjIxMDU0Mn0.5zdDDDtXHfWpZGCx0Pbw66gS6IDIb6j0VcP0qoMPfI8
+BITESHIP_BASE_URL=https://api.biteship.com/v1
